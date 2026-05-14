@@ -1,7 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import ButtonCounter from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <HelloWorld />
+	<h2> 
+    Dashboard del estudiante
+  </h2>
+	<ButtonCounter />
+	<ButtonCounter />
+	<ButtonCounter />
 </template>
